@@ -1,0 +1,5 @@
+[project]
+name = "hello-world-program"
+version = 26.4 # Named after the current year and month
+requires-python = ">= 3.5"
+authors = [ { name = "rock3tsprocket", email = "rock-pie@hotmail.com" } ]
