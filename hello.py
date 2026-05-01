@@ -19,7 +19,8 @@ class Main:
 
         for i in range(0, 13):
             self.puts(hello[i]);
-        self.putc(chr(13)+chr(10));
+        self.putc(chr(13))
+        self.putc(chr(10));
         return 0;
 
     def ___PosixProcessStartup(self) -> None:
