@@ -1,8 +1,8 @@
 import sys;
 
 class Main:
-    def putc(self, char: chr) -> int:
-        return sys.stdout.write(char)
+    def putc(self, char: str) -> int:
+        return sys.stdout.write(char[0])
 
     def puts(self, string: str) -> int:
         amount_of_bytes_written: int = 0;
