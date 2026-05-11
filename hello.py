@@ -1,6 +1,6 @@
 import sys;
 
-class Main:
+class Main(object):
     def putc(self, char: str) -> int:
         return sys.stdout.write(char[0]);
 
